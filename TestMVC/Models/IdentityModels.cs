@@ -29,5 +29,7 @@ namespace TestMVC.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<TestMVC.Models.Employee> Employees { get; set; }
     }
 }
